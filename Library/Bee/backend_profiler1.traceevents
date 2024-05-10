@@ -1,0 +1,518 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1715329032145541, "dur":4542, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329032150433, "dur":82, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1715329032150534, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1715329032150553, "dur":330, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1715329032150923, "dur":845, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329032151768, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728217, "dur":179, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728396, "dur":131, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728527, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728531, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728547, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728548, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728551, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728553, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728556, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728557, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728562, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728563, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728567, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728568, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728573, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728574, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728578, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728601, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033728619, "dur":1607, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1715329032152204, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032152205, "dur":6878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032159084, "dur":22966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1715329032182055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032182085, "dur":5898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1715329032188096, "dur":6578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1715329032194686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032194711, "dur":7012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1715329032201852, "dur":36771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032238627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032240157, "dur":5778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032246060, "dur":7270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032253334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032253344, "dur":4852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032258305, "dur":6880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032265199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032265213, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032270671, "dur":13111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032283792, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032283813, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032286624, "dur":7670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032294303, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032294327, "dur":18279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032312867, "dur":12823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032325699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032325740, "dur":45141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032371081, "dur":11361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032382446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032382457, "dur":18453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032401193, "dur":18303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032419510, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032419531, "dur":43591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032463356, "dur":20322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032483740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032483754, "dur":48825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032532727, "dur":9207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032541964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032541974, "dur":7685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032550216, "dur":7713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032557946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032557971, "dur":15838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032575298, "dur":118153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032693475, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032693510, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032697834, "dur":45142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032742981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032743063, "dur":10400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032753542, "dur":93499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032847046, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329032847062, "dur":29259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329032876399, "dur":132278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329033008682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329033008693, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329033010105, "dur":166324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329033176438, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329033176459, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329033179674, "dur":161859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329033341538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329033341549, "dur":30423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1715329033372064, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1715329033384184, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329033384212, "dur":10552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1715329033394964, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1715329033395206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1715329033395218, "dur":19004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1715329033414323, "dur":313889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032152034, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032152034, "dur":6954, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032159106, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1715329032159122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032161451, "dur":581, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1715329032162054, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1715329032162254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032162592, "dur":5626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1715329032168227, "dur":16328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1715329032184563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032184579, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1715329032186760, "dur":4440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032191205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032191738, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032194411, "dur":44310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032238725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032240346, "dur":5920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032246531, "dur":6685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032253220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032253230, "dur":8784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032262337, "dur":8887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032271264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032271276, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032276175, "dur":18507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032294688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032294700, "dur":12809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032307687, "dur":18214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032338126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032338144, "dur":62739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032401201, "dur":19681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032443588, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032443602, "dur":19619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032463415, "dur":15089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032478508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032478516, "dur":55968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032534659, "dur":14727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032549394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032549411, "dur":10116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032560336, "dur":11341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032571683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032571693, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032576169, "dur":269965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032846144, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032846161, "dur":22512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032868787, "dur":130789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329032999581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329032999593, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329033000865, "dur":303948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329033304818, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329033304832, "dur":16988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1715329033322141, "dur":9458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1715329033331612, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329033331645, "dur":22537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1715329033354551, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1715329033354744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329033354764, "dur":17007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1715329033371888, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1715329033371980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1715329033371992, "dur":42671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1715329033414793, "dur":313417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032152303, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032152303, "dur":6791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032159095, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1715329032159483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032165916, "dur":9809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1715329032175824, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1715329032175926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032176399, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1715329032178672, "dur":12912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1715329032191589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032191603, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1715329032193948, "dur":44831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032238783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032240269, "dur":5912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032246306, "dur":6852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032253192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032253200, "dur":10372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032263682, "dur":16556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032280245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032280282, "dur":5331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032285718, "dur":18365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032304094, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032304114, "dur":12594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032316880, "dur":8892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032325777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032325786, "dur":44965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032370910, "dur":11506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032382427, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032382445, "dur":18449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032401194, "dur":33940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032443619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032443629, "dur":19520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032463379, "dur":20354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032483749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032483759, "dur":50497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032534343, "dur":7237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032541588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032541606, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032545452, "dur":6287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032551744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032551761, "dur":22237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032575378, "dur":111091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032686477, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032686496, "dur":7945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032694717, "dur":75044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032769767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032769782, "dur":4998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032775432, "dur":213270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032988706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329032988718, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329032990266, "dur":109323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329033099599, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329033099625, "dur":6530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329033106233, "dur":147005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329033253248, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329033253264, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329033257177, "dur":49088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329033306269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329033306280, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1715329033308440, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1715329033321864, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329033321891, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1715329033324417, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1715329033324515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329033324526, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1715329033326008, "dur":812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1715329033326826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329033326837, "dur":28512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1715329033355548, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1715329033355704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1715329033355712, "dur":39109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1715329033394994, "dur":333219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032152126, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032152126, "dur":6902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032159030, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1715329032159298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032167344, "dur":3731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1715329032171167, "dur":13918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1715329032185089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032185102, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1715329032187881, "dur":96876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032284789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032284801, "dur":128077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032413731, "dur":16039, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032443611, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032443622, "dur":19948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032463943, "dur":14432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032478380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032478396, "dur":52793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032531442, "dur":13716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032545164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032545179, "dur":13189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032558477, "dur":12971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032571480, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032571498, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032575273, "dur":119695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032694972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032694985, "dur":5991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032701112, "dur":41788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032742908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329032742927, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329032744685, "dur":439611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329033184305, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329033184325, "dur":10970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329033195653, "dur":529171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329033724832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1715329033724848, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1715329033728189, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1715329033728192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032152256, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032152256, "dur":6775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032159031, "dur":18423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1715329032177459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032177583, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1715329032179610, "dur":1900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1715329032181523, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032181548, "dur":3095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1715329032184751, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1715329032185145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032185159, "dur":2280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1715329032187524, "dur":39271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032226805, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032226979, "dur":6669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032233752, "dur":7713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032241495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032241685, "dur":4566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032246518, "dur":6493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032253015, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032253029, "dur":5147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032258295, "dur":6241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032264541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032264559, "dur":5472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032270175, "dur":7543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032277729, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032277754, "dur":6134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032283993, "dur":5985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032289986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032290004, "dur":22402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032312606, "dur":59962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032372581, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032372609, "dur":38655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032411364, "dur":9372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032443582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032443596, "dur":19937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032465071, "dur":18604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032483732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032483754, "dur":49264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032533267, "dur":8661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032541933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032541945, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032546513, "dur":11922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032558439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032558456, "dur":13087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032571633, "dur":17310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032589037, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032589058, "dur":4297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032593434, "dur":5340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032598783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032598800, "dur":7484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032606362, "dur":80152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032686622, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032686635, "dur":7786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032694645, "dur":3648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032698299, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032698349, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032701088, "dur":2245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032703338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032703355, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032705085, "dur":64908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032769997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032770008, "dur":6217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032776303, "dur":114342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032890651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329032890685, "dur":32897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329032923666, "dur":248246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329033171919, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033171937, "dur":14064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329033186094, "dur":68454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329033254554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033254569, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1715329033259498, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1715329033259900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033260436, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1715329033262254, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1715329033262350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033262491, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1715329033264189, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1715329033264291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033264306, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1715329033267639, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033267715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033267730, "dur":9010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033276901, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1715329033277013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033277024, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1715329033278402, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1715329033278475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033278488, "dur":6032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1715329033284622, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033284715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033284727, "dur":23528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033308347, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1715329033308437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033308448, "dur":14675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1715329033323224, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033323316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033323329, "dur":30863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033354554, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033354812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1715329033354821, "dur":59231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1715329033414170, "dur":314064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032152401, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032152401, "dur":6695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032159096, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1715329032159551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032164029, "dur":6593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1715329032170732, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1715329032171157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032171444, "dur":5291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1715329032176821, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1715329032177001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032177163, "dur":7692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1715329032184950, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1715329032185171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032185181, "dur":3660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1715329032188989, "dur":138506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy.exe" }}
+,{ "pid":12345, "tid":6, "ts":1715329032338240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032338250, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy.exe" }}
+,{ "pid":12345, "tid":6, "ts":1715329032341108, "dur":17594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032358723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032358743, "dur":42177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032401199, "dur":19796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032443599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032443613, "dur":19516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032463358, "dur":15013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032478378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032478396, "dur":33864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032512414, "dur":9574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032521992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032522003, "dur":13114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032535245, "dur":6727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032541975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032541983, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032546679, "dur":11378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032558065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032558085, "dur":15708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032575264, "dur":120664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032695937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032695961, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032702289, "dur":50587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032752883, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032752900, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032756766, "dur":153422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032910197, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032910220, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032912464, "dur":50568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032963046, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329032963080, "dur":8791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329032971978, "dur":384856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329033356838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1715329033356847, "dur":58127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1715329033415083, "dur":313139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032152363, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032152363, "dur":6627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032159028, "dur":62136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1715329032221169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032221786, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1715329032225088, "dur":13512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032238608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032240335, "dur":6007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032246571, "dur":7467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032254043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032254054, "dur":9176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032263359, "dur":7028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032270391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032270404, "dur":9943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032280449, "dur":8843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032289301, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032289320, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032293146, "dur":11616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032304816, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032304836, "dur":11660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032316610, "dur":9216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032325830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032338127, "dur":62776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032401189, "dur":18324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032419518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032443586, "dur":19569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032463395, "dur":20274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032483683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032483755, "dur":48921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032532848, "dur":8732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032541588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032541606, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032546408, "dur":8830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032555245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032555264, "dur":17941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032573365, "dur":83805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032657177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032657198, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032660274, "dur":66416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032726698, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032726715, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032729442, "dur":39416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032768906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329032768955, "dur":6227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329032775433, "dur":416041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329033191483, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329033191501, "dur":11173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329033202768, "dur":345797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329033548572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1715329033548588, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1715329033550707, "dur":177506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032152517, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032152520, "dur":6562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032159083, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1715329032159536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032166662, "dur":4508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1715329032171343, "dur":1845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1715329032173197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032173218, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1715329032176343, "dur":14719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1715329032191116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032191134, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1715329032193312, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1715329032193457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032193849, "dur":12346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1715329032206297, "dur":32336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032238637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032240442, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032246390, "dur":6596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032252993, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032253012, "dur":5522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032258637, "dur":5898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032264541, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032264563, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032268830, "dur":8899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032277739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032277779, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032280435, "dur":175887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032456335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032456357, "dur":8144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032464595, "dur":23459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032488059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032488070, "dur":44834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032533259, "dur":8782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032542045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032542054, "dur":8029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032550359, "dur":57877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032608241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032608258, "dur":26986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032635324, "dur":84767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032720099, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032720116, "dur":23190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032743395, "dur":126639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032870045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032870065, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032872319, "dur":52469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032924795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329032924811, "dur":7551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329032932456, "dur":538852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329033471313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1715329033471324, "dur":2743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yesir/OneDrive/ /  /(or )/Break And Enjoy/Build/Break And Enjoy_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1715329033474124, "dur":254109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1715329033732740, "dur":1984, "ph":"X", "name": "ProfilerWriteOutput" }
+,
